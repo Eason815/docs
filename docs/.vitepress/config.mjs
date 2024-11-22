@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/docs/",
   title: "Eason815的文档站",
   description: "好记性不如烂笔头",
   themeConfig: {

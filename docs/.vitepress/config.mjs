@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { set_sidebar } from "./utils/auto_gen_sidebar.mjs";	// 改成自己的路径
+// import { set_sidebar } from "./utils/auto_gen_sidebar.mjs";	// 改成自己的路径
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -23,7 +23,7 @@ export default defineConfig({
         ]
       },
 
-      { text: 'Examples', link: '/examples/' }
+      // { text: 'Examples', link: '/examples/' }
     ],
 
     // sidebar: {
@@ -38,7 +38,7 @@ export default defineConfig({
     //   ]
     // },
     sidebar: { 
-      "/examples/": set_sidebar("/examples"), 
+      // "/examples/": set_sidebar("/examples"), 
       '/os/xv6/': [
         {
           text: '计算机操作系统', link: '/os/xv6/index'

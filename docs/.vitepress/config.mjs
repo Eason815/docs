@@ -74,7 +74,17 @@ export default defineConfig({
             { text: 'A kernel page table per process', link: '/os/xv6/lab3/2' },
             { text: 'Simplify copyin/copyinstr', link: '/os/xv6/lab3/3' },
           ]
-        }
+        },
+        {
+          text: 'Lab4: traps',
+          link: '/os/xv6/lab4/index',
+          collapsed: false,
+          items: [
+            { text: 'RISC-V assembly', link: '/os/xv6/lab4/1' },
+            { text: 'Backtrace', link: '/os/xv6/lab4/2' },
+            { text: 'Alarm', link: '/os/xv6/lab4/3' },
+          ]
+        },
       ]
     },
 

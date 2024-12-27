@@ -48,12 +48,12 @@ export default defineConfig({
           link: '/os/xv6/lab1/index',
           collapsed: false,
           items: [
-            { text: 'Boot xv6', link: '/os/xv6/lab1/Boot' },
-            { text: 'Sleep', link: '/os/xv6/lab1/Sleep' },
-            { text: 'Pingpong', link: '/os/xv6/lab1/Pingpong' },
-            { text: 'Primes', link: '/os/xv6/lab1/Primes' },
-            { text: 'Find', link: '/os/xv6/lab1/find' },
-            { text: 'Xargs', link: '/os/xv6/lab1/xargs' },
+            { text: 'Boot xv6', link: '/os/xv6/lab1/1' },
+            { text: 'Sleep', link: '/os/xv6/lab1/2' },
+            { text: 'Pingpong', link: '/os/xv6/lab1/3' },
+            { text: 'Primes', link: '/os/xv6/lab1/4' },
+            { text: 'Find', link: '/os/xv6/lab1/5' },
+            { text: 'Xargs', link: '/os/xv6/lab1/6' },
           ]
         },
         {
@@ -83,6 +83,43 @@ export default defineConfig({
             { text: 'RISC-V assembly', link: '/os/xv6/lab4/1' },
             { text: 'Backtrace', link: '/os/xv6/lab4/2' },
             { text: 'Alarm', link: '/os/xv6/lab4/3' },
+          ]
+        },
+        {
+          text: 'Lab5: xv6 lazy page allocation',
+          link: '/os/xv6/lab5/index',
+          collapsed: false,
+          items: [
+            { text: 'Eliminate allocation from sbrk()', link: '/os/xv6/lab5/1' },
+            { text: 'Lazy allocation', link: '/os/xv6/lab5/2' },
+            { text: 'Lazytests and Usertests', link: '/os/xv6/lab5/3' },
+          ]
+        },
+        {
+          text: 'Lab6: Copy-on-Write Fork for xv6',
+          link: '/os/xv6/lab6/index',
+          collapsed: false,
+          items: [
+            { text: 'Implement copy-on write', link: '/os/xv6/lab6/1' },
+          ]
+        },
+        {
+          text: 'Lab7: Multithreading',
+          link: '/os/xv6/lab7/index',
+          collapsed: false,
+          items: [
+            { text: 'Uthread: switching between threads', link: '/os/xv6/lab7/1' },
+            { text: 'Using threads', link: '/os/xv6/lab7/2' },
+            { text: 'Barrier', link: '/os/xv6/lab7/3' },
+          ]
+        },
+        {
+          text: 'Lab8: locks',
+          link: '/os/xv6/lab8/index',
+          collapsed: false,
+          items: [
+            { text: 'Memory allocator', link: '/os/xv6/lab8/1' },
+            { text: 'Buffer cache', link: '/os/xv6/lab8/2' },
           ]
         },
       ]

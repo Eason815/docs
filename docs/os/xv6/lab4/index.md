@@ -1,8 +1,6 @@
-# Lab3: pgtbl
+# Lab4: traps
 
 ## 准备工作
-
-这章开始难度加大
 
 同样在每次开启新的一章所要做的事情
 
@@ -25,13 +23,13 @@ index 83dd513..c96dab0 100644
  {
 ```
 
-切换到pgtbl分支
+切换到traps分支
 ```
 $ git fetch
-$ git checkout pgtbl
+$ git checkout traps
 $ make clean
 ```
 
 ## 参考
 
-1. https://blog.csdn.net/LostUnravel/article/details/121340933
+1. https://blog.csdn.net/LostUnravel/article/details/121341055
